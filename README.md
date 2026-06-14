@@ -16,7 +16,7 @@ Suggests users based on mutual connections.
 
 Pages You Might Like
 
-Recommends pages based on shared interests.
+Recommends pages based on shared interests..
 
 Technologies Used
 Python
