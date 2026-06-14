@@ -1,0 +1,298 @@
+# CODERS OF DELHI
+
+## Social Network Data Cleaning and Recommendation System
+
+### Developed By
+
+**Name:** ____________________
+
+**Technology Stack:** Python, JSON, Data Structures, Sets, Dictionaries
+
+**Project Type:** Data Analytics & Recommendation System
+
+---
+
+# Abstract
+
+Social networking platforms generate a large amount of user data. However, raw data often contains duplicate records, inactive users, missing information, and inconsistent relationships that reduce data quality.
+
+The "Coders of Delhi" project was developed to address these issues by implementing a data cleaning pipeline and a recommendation system. The project loads social network data, removes inconsistencies, and generates intelligent suggestions such as "People You May Know" and "Pages You Might Like."
+
+The project demonstrates practical applications of Python programming, data cleaning, data structures, and basic recommendation algorithms.
+
+---
+
+# Project Objective
+
+The primary objectives of this project are:
+
+* Load social network data efficiently.
+* Clean and validate user information.
+* Remove duplicate records.
+* Eliminate inactive users.
+* Remove users with incomplete profiles.
+* Remove duplicate liked pages.
+* Suggest potential friends.
+* Recommend pages based on user interests.
+
+---
+
+# Problem Statement
+
+Social network datasets often contain several challenges:
+
+* Duplicate friend entries.
+* Inactive user accounts.
+* Missing user names.
+* Duplicate liked pages.
+* Difficulty in finding relevant connections.
+* Lack of personalized page recommendations.
+
+These issues decrease the efficiency and reliability of the system.
+
+This project aims to solve these problems through data cleaning and recommendation techniques.
+
+---
+
+# Methodology
+
+## Step 1: Data Loading
+
+The project loads user information from a JSON dataset.
+
+Each user record contains:
+
+* User ID
+* User Name
+* Friend List
+* Liked Pages
+* Activity Status
+
+---
+
+## Step 2: Data Cleaning
+
+The system performs several cleaning operations.
+
+### Duplicate Friends Removal
+
+Repeated friend IDs are removed.
+
+### Inactive User Removal
+
+Inactive users are filtered from the dataset.
+
+### Missing Name Removal
+
+Users without valid names are discarded.
+
+### Duplicate Liked Pages Removal
+
+Repeated page entries are removed.
+
+These operations improve data quality and consistency.
+
+---
+
+## Step 3: People You May Know
+
+The recommendation engine analyses mutual friendships.
+
+Users who:
+
+* Are not already direct friends,
+* Share common connections,
+
+are recommended as potential friends.
+
+This feature mimics the friend suggestion systems used in social networking platforms.
+
+---
+
+## Step 4: Pages You Might Like
+
+The system analyses the pages liked by a user's friends.
+
+Pages that:
+
+* Are popular among connected users,
+* Have not yet been liked by the target user,
+
+are recommended.
+
+This improves content discovery and user engagement.
+
+---
+
+# System Workflow
+
+Raw Data
+↓
+
+Load Dataset
+↓
+
+Data Cleaning
+↓
+
+Remove Duplicate Friends
+↓
+
+Remove Inactive Users
+↓
+
+Remove Missing Names
+↓
+
+Remove Duplicate Pages
+↓
+
+Friend Recommendation Engine
+↓
+
+Page Recommendation Engine
+↓
+
+Final Output
+
+---
+
+# Sample Output
+
+User: Rahul
+
+People You May Know:
+
+* Aman
+* Rohit
+* Priya
+
+Pages You Might Like:
+
+* Python Community
+* AI Delhi
+* Coding Hub
+
+---
+
+# Key Features
+
+✔ Data Loading
+
+✔ Data Cleaning
+
+✔ Duplicate Removal
+
+✔ Inactive User Filtering
+
+✔ Missing Data Handling
+
+✔ Friend Recommendation
+
+✔ Page Recommendation
+
+✔ Efficient Data Processing
+
+---
+
+# Technologies Used
+
+Programming Language:
+
+* Python
+
+Data Format:
+
+* JSON
+
+Python Concepts:
+
+* Lists
+* Dictionaries
+* Sets
+* Loops
+* Functions
+* Conditional Statements
+
+Algorithms:
+
+* Data Cleaning
+* Mutual Friend Analysis
+* Recommendation Logic
+
+---
+
+# Results
+
+The project successfully:
+
+* Improved data quality.
+* Removed redundant records.
+* Identified active users.
+* Generated friend recommendations.
+* Generated page recommendations.
+* Demonstrated practical use of Python data structures.
+
+The implementation provides a simplified model of recommendation systems used in modern social networking applications.
+
+---
+
+# Future Enhancements
+
+Future versions of the project may include:
+
+* Mutual friend scoring.
+* Popular page ranking.
+* Graph-based network visualization.
+* Community detection.
+* Machine learning recommendations.
+* Database integration.
+* Web interface.
+* Real-time user updates.
+
+---
+
+# Skills Demonstrated
+
+## Programming
+
+* Python
+
+## Data Analytics
+
+* Data Cleaning
+* Data Validation
+* Data Processing
+
+## Data Structures
+
+* Sets
+* Dictionaries
+* Lists
+
+## Problem Solving
+
+* Duplicate Detection
+* Missing Data Handling
+* Recommendation Systems
+
+## Logical Thinking
+
+* Social Network Analysis
+* Relationship Mapping
+
+---
+
+# Conclusion
+
+The "Coders of Delhi" project demonstrates how Python can be used to clean social network data and generate meaningful recommendations. The project combines data preprocessing with recommendation logic to improve user experience and data reliability.
+
+It serves as a practical implementation of data analytics concepts and showcases skills in Python programming, data structures, and algorithmic problem solving. The project provides a strong foundation for developing more advanced social network analytics and recommendation systems.
+
+---
+
+# Acknowledgement
+
+I would like to express my gratitude to everyone who supported and encouraged the development of this project. This project was created as a learning initiative to strengthen my understanding of Python programming, data analytics, and recommendation systems while applying theoretical concepts to a practical real-world scenario.
+
+**Thank You.**
